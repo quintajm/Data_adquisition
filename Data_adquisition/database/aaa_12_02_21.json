@@ -1,0 +1,12 @@
+{
+    "name": "aaa",
+    "uuid": "aaa",
+    "serial_number": "aaa",
+    "firmware_version": "aa",
+    "BT_reads": "aa",
+    "fob_reads": "aa",
+    "jumper": "No",
+    "failure": "No power",
+    "notes": "sas",
+    "date": "12_02_21"
+}

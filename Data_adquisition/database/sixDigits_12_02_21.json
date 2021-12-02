@@ -1,0 +1,13 @@
+{
+    "name": "TEsty",
+    "uuid": "sixDigits",
+    "serial_number": "threeeDigits",
+    "firmware_version": "firmwareversion",
+    "BT_reads": "999",
+    "fob_reads": "999",
+    "jumper": "No",
+    "failure": "No fob read",
+    "notes": "nooo",
+    "buttons": "save",
+    "date": "12_02_21"
+}

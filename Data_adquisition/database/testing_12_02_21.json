@@ -1,0 +1,12 @@
+{
+    "name": "Juan",
+    "uuid": "testing",
+    "serial_number": "ijuh",
+    "firmware_version": "ih",
+    "BT_reads": "ih",
+    "fob_reads": "oj",
+    "jumper": "No",
+    "failure": "No power",
+    "notes": "dsaasd",
+    "date": "12_02_21"
+}
