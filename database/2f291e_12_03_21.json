@@ -1,0 +1,12 @@
+{
+    "name": "Isaac Wells ",
+    "uuid": "2f291e",
+    "serial_number": "535",
+    "firmware_version": "2.05",
+    "BT_reads": "84",
+    "fob_reads": "0",
+    "jumper": "No",
+    "failure": "Locked nfc",
+    "notes": "On the 91st trial the nfc locked up. BT was tested and still works but nfc is still locked up. Joe tried shorting R18 and the reader beeped as it was supposed to. However, the software was unable to reset the nfc. ",
+    "date": "12_03_21"
+}

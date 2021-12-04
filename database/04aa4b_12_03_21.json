@@ -1,0 +1,12 @@
+{
+    "name": "Nathan",
+    "uuid": "04aa4b",
+    "serial_number": "544",
+    "firmware_version": "2.05",
+    "BT_reads": "525",
+    "fob_reads": "0",
+    "jumper": "No",
+    "failure": "No bt",
+    "notes": "525 trials, 13 failures",
+    "date": "12_03_21"
+}

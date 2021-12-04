@@ -38,6 +38,9 @@ def showAnalytics():
 
     #print('here is the error')
     my_report.show_html()  # Default arguments will generate to "SWEETVIZ_REPORT.html"
+    
+    # Output report
+    put_html('SWEETVIZ_REPORT.html')
 
 def main():
     # For automatic reconnection
@@ -66,24 +69,29 @@ def main():
         textarea('notes', rows=3, placeholder='Anything weird?', name='notes'),
         actions('actions', [
             {'label': 'Save', 'value': 'save'},
+        ], name='buttons'),
+    ])
+    
+    # Create a info dictionary that will be empty until you click something
+    info3 = input_group('If you want to check the database, else refresh to re-test', [
+        actions('', [
             {'label': 'Show database', 'value': 'confirm'},
         ], name='buttons'),
     ])
 
     # Merge both dictionaries
     infoAll = {**info, **info2}
-    print(infoAll)
 
     # Button selection logic
     if info2['buttons'] == 'save':
+        del infoAll["buttons"]
         saveFiles(infoAll)
         #print (f'THIS:{info}')
         #THIS:{'buttons': 'save'}
-        return print("Logged OK!!")
-    if info2['buttons'] == 'confirm':
+    
+    if info3['buttons'] == 'confirm':
         showAnalytics()
-    start_server(main, port=8999)
-    return print ('exited')
+        
 
 if __name__ == '__main__':
     start_server(main, port=8999) #http://localhost:8986/

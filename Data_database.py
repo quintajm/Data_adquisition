@@ -6,7 +6,7 @@ def log_data(name, date, uuid, serial_number, firmware_version, BT_reads, fob_re
 
     try:
         # Create table
-        cur.execute('''CREATE TABLE logs (name text, uuid text,  serial_number text, firmware_version text, BT_reads 
+        cur.execute('''CREATE TABLE logs (name text, date text, uuid text,  serial_number text, firmware_version text, BT_reads 
         text, fob_reads text, jumper text, failure text, notes text)''')
     except:
         print("Table existed")

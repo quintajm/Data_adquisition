@@ -1,0 +1,12 @@
+{
+    "name": "",
+    "uuid": "xxxx",
+    "serial_number": "",
+    "firmware_version": "",
+    "BT_reads": "",
+    "fob_reads": "",
+    "jumper": null,
+    "failure": "Looped buzzer",
+    "notes": "",
+    "date": "12_04_21"
+}
